@@ -4,18 +4,18 @@
 
 run with grunt server
 
-# Grunt Screen
+# Grunt server screen
 <img border="0" width="624" id="Picture 1" src="https://github.com/stannesi/phaserJS-HTML5-snake-game/blob/master/screenshots/grunt-screen.png" />
 
-# Splash Screen
+# Splash screen
 <img border="0" width="624" id="Picture 1" src="https://github.com/stannesi/phaserJS-HTML5-snake-game/blob/master/screenshots/splash.png" />
 
-# Menu Screen
+# Menu screen
 <img border="0" width="624" id="Picture 1" src="https://github.com/stannesi/phaserJS-HTML5-snake-game/blob/master/screenshots/menu-screen.png" />
 
-# Game play Screen
+# Game play screen
 <img border="0" width="624" id="Picture 1" src="https://github.com/stannesi/phaserJS-HTML5-snake-game/blob/master/screenshots/main-game.png" />
 
-# Game Over Screen
+# Game Over screen
 <img border="0" width="624" id="Picture 1" src="https://github.com/stannesi/phaserJS-HTML5-snake-game/blob/master/screenshots/game-over.png" />
 
