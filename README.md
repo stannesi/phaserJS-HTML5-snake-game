@@ -1,4 +1,4 @@
-# phaserJS HTML5 Snake Game 
+# PhaserJS HTML5 Snake Game 
 
 .: A simple classic snake with PhaserJS :.
 
