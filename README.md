@@ -5,9 +5,14 @@
 run with grunt server
 
 # Splash Screen
-<img border="0" width="624" id="Picture 1" src="https://github.com/stannesi/phaserJS-HTML5-snake-game/blob/master/splash.png" />
-![alt tag] (https://github.com/stannesi/todo-app-node-angular/blob/master/ScreenShot-01.png)
+<img border="0" width="624" id="Picture 1" src="https://github.com/stannesi/phaserJS-HTML5-snake-game/blob/master/screenshots/splash.png" />
 
 # Menu Screen
-<img border="0" width="624" id="Picture 1" src="https://github.com/stannesi/phaserJS-HTML5-snake-game/blob/master/splash.png" />
+<img border="0" width="624" id="Picture 1" src="https://github.com/stannesi/phaserJS-HTML5-snake-game/blob/master/screenshots/menu-screen.png" />
+
+# Game play Screen
+<img border="0" width="624" id="Picture 1" src="https://github.com/stannesi/phaserJS-HTML5-snake-game/blob/master/screenshots/main-game.png" />
+
+# Game Over Screen
+<img border="0" width="624" id="Picture 1" src="https://github.com/stannesi/phaserJS-HTML5-snake-game/blob/master/screenshots/game-over.png" />
 
