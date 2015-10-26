@@ -4,6 +4,9 @@
 
 run with grunt server
 
+# Grunt Screen
+<img border="0" width="624" id="Picture 1" src="https://github.com/stannesi/phaserJS-HTML5-snake-game/blob/master/screenshots/grunt-screen.png" />
+
 # Splash Screen
 <img border="0" width="624" id="Picture 1" src="https://github.com/stannesi/phaserJS-HTML5-snake-game/blob/master/screenshots/splash.png" />
 
