@@ -1,8 +1,9 @@
+// game-over state
 var gameOver = {
     // preload
     preload: function() {
         // menu image
-        game.load.image('gameOver', './assets/images/game-over.png');
+        game.load.image('gameOver', 'assets/images/game-over.png');
     },
     
     // create

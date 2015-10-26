@@ -1,9 +1,10 @@
+// splash state
 var splash = {
     duration: 100,
     // preload
     preload: function() {
         // splash image
-        game.load.image('splash', './assets/images/splash.png');  
+        game.load.image('splash', 'assets/images/splash.png');  
     },
     
     // create

@@ -1,8 +1,10 @@
+// menu state
+
 var menu = {
     // preload
     preload: function() {
         // menu image
-        game.load.image('menu', './assets/images/menu.png');
+        game.load.image('menu', 'assets/images/menu.png');
     },
     
     // create

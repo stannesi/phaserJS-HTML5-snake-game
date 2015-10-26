@@ -1,3 +1,4 @@
+// main game state
 var snake,              // snake object
     fruit,              // fruit object
     squareSize,
@@ -20,9 +21,9 @@ var mainGame = {
     // preload
     preload: function() {
         // snake 
-        game.load.image('snake-tile', './assets/images/snake-tile.png');
+        game.load.image('snake-tile', 'assets/images/snake-tile.png');
         // fruit
-        game.load.image('fruit', './assets/images/fruit.png');
+        game.load.image('fruit', 'assets/images/fruit.png');
     },
     
     // create
