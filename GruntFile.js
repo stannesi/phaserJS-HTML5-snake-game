@@ -9,7 +9,7 @@ module.exports = function(grunt) {
         connect: {
             server: {
                 options: {
-                    port: 8080,
+                    useAvailablePort: true,
                     base: './deploy'
                 }
             }
@@ -24,16 +24,9 @@ module.exports = function(grunt) {
             files: 'src/**/*.js',
             tasks: ['concat']
         },
-        open: {
-            dev: {
-                path: 'http://localhost:8080/index.html'
-            },
-            build: {
-                path: 'http://phaserjs-snake-game.herokuapp.com'
-            }
-        }
+
     });
     
-    grunt.registerTask('default', ['concat', 'connect', 'open:build', 'watch']);
+    grunt.registerTask('default', ['concat', 'connect', 'open', 'watch']);
 }
     
