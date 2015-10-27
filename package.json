@@ -4,7 +4,9 @@
   "description": ".: A simple classic snake with PhaserJS :.",
   "main": "deploy/index.html",
   "script": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "postinstall": "grunt default",
+      "start": "node server.js"
   },
   "devDependencies": {
       "grunt-open": "~0.2.3",
