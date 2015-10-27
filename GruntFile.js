@@ -9,7 +9,7 @@ module.exports = function(grunt) {
         connect: {
             server: {
                 options: {
-                    useAvailablePort: true,
+                    port: 8000,
                     base: './deploy'
                 }
             }
@@ -24,7 +24,11 @@ module.exports = function(grunt) {
             files: 'src/**/*.js',
             tasks: ['concat']
         },
-
+        open: {
+            dev: {
+                path: 'http://localhost:8000/index.html'
+            }
+        }
     });
     
     grunt.registerTask('default', ['concat', 'connect', 'open', 'watch']);
