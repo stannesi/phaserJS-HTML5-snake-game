@@ -1,5 +1,5 @@
 {
-  "name": "phaserJS-HTML5-snake-game",
+  "name": "phaserjs-html5-snake-game",
   "version": "1.0.0",
   "description": ".: A simple classic snake with PhaserJS :.",
   "main": "index.js",
@@ -7,14 +7,30 @@
     "postinstall": "grunt default",
     "start": "node server.js"
   },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.5.3",
+    "grunt-contrib-watch": "~0.5.3"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/stannesi/phaserJS-HTML5-snake-game"
+    "url": "git+https://github.com/stannesi/phaserJS-HTML5-snake-game.git"
   },
   "author": "stannesi",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/stannesi/phaserJS-HTML5-snake-game/issues"
   },
-  "homepage": "https://github.com/stannesi/phaserJS-HTML5-snake-game#readme"
+  "homepage": "https://github.com/stannesi/phaserJS-HTML5-snake-game#readme",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "grunt-contrib-uglify": "^0.10.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-watch": "^0.6.1"
+  }
 }
