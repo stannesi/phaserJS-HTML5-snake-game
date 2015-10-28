@@ -10,7 +10,7 @@ var PORT = process.env.PORT || 8000;
 var deploy_dir = path.resolve(__dirname, './deploy/index.html');
 
 express()
-  .use(express.static(path.resolve(__dirname, './deploy/js')))
+  .use(express.static(path.resolve(__dirname, './deploy')))
   .use(start)
   // listen (start app with node server.js)
   .listen(PORT, onListen);

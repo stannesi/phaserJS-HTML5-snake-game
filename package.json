@@ -2,18 +2,10 @@
   "name": "phaserJS-HTML5-snake-game",
   "version": "1.0.0",
   "description": ".: A simple classic snake with PhaserJS :.",
-  "main": "deploy/index.html",
+  "main": "index.js",
   "script": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "postinstall": "grunt default",
-      "start": "node server.js"
-  },
-  "devDependencies": {
-      "grunt-open": "~0.2.3",
-      "grunt": "~0.4.2",
-      "grunt-contrib-concat": "~0.3.0",
-      "grunt-contrib-watch": "~0.5.3",
-      "grunt-contrib-connect": "~0.6.0"
+    "postinstall": "grunt default",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
