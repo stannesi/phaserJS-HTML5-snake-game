@@ -5,7 +5,16 @@
 run with grunt server
 
 ## Live Game Play
-http://phaserjs-snake-game.herokuapp.com/
+[Live Demo ⚡️](http://phaserjs-snake-game.herokuapp.com/)
+
+## Project setup
+```
+npm install
+```
+### Start Game Server
+```
+npm start
+```
 
 ## Grunt server screen
 <img border="0" width="624" id="Picture 1" src="https://github.com/stannesi/phaserJS-HTML5-snake-game/blob/master/screenshots/grunt-screen.png" />
